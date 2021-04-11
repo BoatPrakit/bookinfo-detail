@@ -1,6 +1,6 @@
 services:
         ruby:
           build: .
-          image: details:lastest
+          image: ghcr.io/boatprakit/bookinfo-details:dev
           ports:
-             - "8080:8080"
+             - "9080:9080"
